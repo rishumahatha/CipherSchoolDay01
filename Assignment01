@@ -1,0 +1,42 @@
+// Assignment 1
+#include<iostream>
+using namespace std;
+
+int main(){
+    int a,b;
+    cout<<"Enter 1st number: ";
+    cin>>a;
+
+    cout<<"Enter 2nd number: ";
+    cin>>b;
+
+    char chr;
+    cout<<"Enter the operation(+,-,*,/,%): ";
+    cin>>chr;
+
+    switch(chr){
+        case '+':
+        cout<<a+b;
+        break;
+        
+        case '-':
+        cout<<a-b;
+        break;
+        
+        case '*':
+        cout<<a*b;
+        break;
+        
+        case '/':
+        cout<<a/b;
+        break;
+        
+        case '%':
+        cout<<a%b;
+        break;
+        
+        default:
+        cout<<"Enter the correct operation.";
+    }
+    return 0;
+}
